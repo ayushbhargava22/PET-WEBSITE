@@ -752,9 +752,9 @@ div{
     white-space: nowrap;
     position: relative;
     border: none;
-    background-color: blue;
+    background-color: transparent;
    
-    color: white !important;
+    color: blue !important;
     cursor: pointer;
     height: 30px;
     line-height: 0;
@@ -837,6 +837,140 @@ div{
         font-family: "SW-Separat";
     }
 }
+@media screen and (max-width:991px)
+{
+    .ca-images li img{
+        height: 25;
+    }
+    #shark{
+        height: 35;
+    }
+    #nbc{
+        height: 35;
+    }
+    .food-prop{
+        margin-top: -40;
+    }
+    .food-prop-properties li{
+        letter-spacing: 1px;
+    }
+    #cooking-list1{
+        width: 300px;
+        margin-left: -55;
+    }
+    #cooking-list2{
+        width: 300px;
+        margin-left: -55;
+    }#cooking-list3{
+        width: 300px;
+        margin-left: -55;
+    }
+    .cooking-list-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .list1-image{
+        margin-left: -30;
+    }
+    .cooking-list-text h3{
+        margin-left: -40;
+    }
+    .insta-heading{
+        margin-left: -40;
+    }
+    .food-prop-content h1{
+        width: 400;
+        letter-spacing: 1;
+    }
+}
 
+@media screen and (max-width:500px)
+{
+    .food-prop-content h1{
+        width: 300;
+    }
+    .navbar-left{
+        width: 300;
+    }
+    .main-logo{
+        padding-left: 0;
+        padding-top: 30;
+    }
+    #sign-up{
+        margin-left: 90;
+        margin-top: 20;
+    }
+    
+}
+@media screen and (max-width:450px)
+{
+    .ca-images li img{
+        height: 15;
+        width: 40;
+    }
+    .insta-follow{
+        display: none;
+    }
+    #email-confo{
+        width: 200;
+    }
+}
+@media screen and (max-width:520px)
+{
+    #sign-up{
+        margin-left: 50;
+        margin-top: 20;
+    }
+    .email{
+        margin-left: 60;
+    }
+}
+@media screen and (max-width:380px)
+{
+    .image-text{
+        margin-left: 0;
+    }
+    .food-prop-properties li{
+        font-size: 13;
+    }
+    .food-prop-properties{
+        padding-left: 15;
+    }
+    .food-prop-content h1{
+        margin-left: 15;
+    }
+    .reasons-left-image img{
+        width: 350;
+        height: 400;
+        margin-left: -20;
 
+    }
+    .reasons-content h1{
+        font-size: 25;
+    }
+    .support{
+        display: none;
+    }
+    .cooking-list-text{
+        margin-left: 70;
+        margin-right: 30;
+    }
+    #number2{
+        margin-right: 50;
+    }
+    #cooking-list2{
+        margin-left: 0;
+    }
+    #cooking-list3{
+        margin-left: 10;
+    }
+    #email-confo{
+        margin-left: -40;
+    }
+    #sign-up{
+        margin-left: 10;
+    }
+}
 
