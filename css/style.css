@@ -941,6 +941,9 @@ div{
     .food-prop-content h1{
         margin-left: 15;
     }
+    .personalfood{
+        font-size: 11;
+    }
     .reasons-left-image img{
         width: 350;
         height: 400;
