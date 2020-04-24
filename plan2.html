@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PET FOOD</title>
+    <link rel="stylesheet" href="css/planstyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-content">
+                <div class="heading">
+                    <h1>PET FOOD</h1>
+                </div>
+            </div>
+        </div>
+        <div class="ques2">
+            <span class="gender" id="genderop"></span>
+            <div class="genderoption" id="ge">  
+                <button class="op1 active" id="btn1">BOY</button>
+                <button class="op1" id="btn2">GIRL</button>
+            </div>
+            <div class="boyoption" id="boyop">
+                <div class="opp">
+                    <span class="optiontext">NEUTERED</span><br>
+                </div>
+                <div class="opp2" id="opp2active">
+                    <button class="boyop1 active" id="boybtn1">YES</button>
+                    <button class="boyop1">NO</button>
+                </div>
+                <p>Who's the good boy?Who's the good boy?</p>    
+            </div>
+            <div class="boyoption" id="girlop" style="display: none;">
+                <div class="opp">
+                    <span class="optiontext">SPAYED</span><br>
+                </div>
+                <div class="opp2" id="opp2active">
+                    <button class="boyop1 active" id="boybtn1">YES</button>
+                    <button class="boyop1">NO</button>
+                </div>
+                <p>Who's the good girl?Who's the good girl?</p>
+            </div>
+        </div>
+        <div class="btn2">
+            <a href="plan3.html">
+                <input type="submit" value="Continue" id="nextques2">
+            </a>
+        </div>
+           
+    </div>
+    <script>
+        document.getElementById("genderop").innerHTML = localStorage.getItem("textvalue");
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>
