@@ -513,6 +513,7 @@ div{
         min-width: 100%;
         
     }
+   
     .image-text{
         display: flex;
         flex-direction: column;
@@ -621,6 +622,9 @@ div{
     .threeimage img{
         height: 50;
     }
+    .right-nav{
+        display: none;
+    }
     .insta-heading {
         margin-left: 60;
     }
@@ -709,4 +713,130 @@ div{
         width: 90;
         height: 50;
     }
+    .nav__item--cta {
+        display: none;
+    }
+    
 }
+@media screen and (min-width:991px)
+{
+    body{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        display: block;
+        min-width: 100%;
+        
+    }
+    .nav-menu{
+        display: none;
+    }
+    
+}
+.nav-menu{
+    margin-left: auto;
+    margin-right: 0;
+}
+.nav-mobile{
+    align-items: center;
+    display: flex;
+    line-height: 1;
+    margin-left: 20;
+}
+#mobile-menu-button{
+    margin-top: 40;
+}
+.nav-mobile-button{
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    border: none;
+    background-color: blue;
+   
+    color: white !important;
+    cursor: pointer;
+    height: 30px;
+    line-height: 0;
+    margin: 0 auto;
+    width: 34px;
+    z-index: 200;
+    transition: background-color 0.3s;
+}
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+
+}
+.mobile-button:hover .mobile-button__bar {
+    background-color: #163fff;
+
+}
+.mobile-button__bar:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.mobile-button__bar {
+    position: absolute;
+    top: 0;
+    display: block;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #002cf6;
+}
+.nav__item {
+    position: relative;
+    display: block;
+    margin: 0;
+}
+
+.nav__nav {
+    
+    background: #f2f2f2;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    left: 0;
+    opacity: 1;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    transform: translateZ(0);
+    transition: visibility 0s 0.2s, opacity 0.2s ease-in;
+    visibility: visible;
+    z-index: 100;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.nav__item {
+    position: relative;
+    display: block;
+    margin: 0;
+}
+.nav-list li{
+    
+    line-height: 160%;
+    list-style-position: inside;
+    
+    vertical-align: baseline
+}
+
+@media screen and (max-width:991px)
+{
+    .nav__list {
+        font-size: 42px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "SW-Separat";
+    }
+}
+
+
+
