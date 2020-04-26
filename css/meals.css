@@ -191,3 +191,51 @@ tr td{
     border: 1px solid blue;
     color: white;
 }
+
+.nav__nav{
+    top: 13%;
+}
+
+/*media queries*/
+
+@media screen and (max-width:991px)
+{
+    .meal1-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .meal__number1-content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .right-meal-side{
+        width: 100%;
+    }
+    .right-image img{
+        height: 680;
+    }
+    .left-meal-side{
+        width: 100%;
+        margin-left: 0;
+    }
+    .ingri1{
+        width: 95%;
+    }
+    .left-meal-topic{
+        display: flex;
+        justify-content: center;
+    }
+    .try-btn1{
+        margin-left: 70;
+    }
+}
+@media screen and (max-width:550px)
+{
+    .new-heading-content h1{
+        font-size: 45;
+    }
+    .doc-say1 p{
+        width: 315;
+        font-size: 12;
+    }
+}
