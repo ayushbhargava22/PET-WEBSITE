@@ -40,3 +40,91 @@ document.getElementById("drop_down_ingri4").addEventListener('click', function()
         box4.style.display = "none"
     }
 })
+
+document.getElementById('drop_down_ingri_beef').addEventListener('click', function(){
+    var beefbox = document.getElementById("drop_beef")
+    if(beefbox.style.display=="none")
+    {
+        beefbox.style.display = "block"
+    }
+    else{
+        beefbox.style.display = "none"
+    }
+})
+
+document.getElementById('drop_down_ingri_beef2').addEventListener('click', function(){
+    var beefbox = document.getElementById("drop_beef2")
+    if(beefbox.style.display=="none")
+    {
+        beefbox.style.display = "block"
+    }
+    else{
+        beefbox.style.display = "none"
+    }
+})
+
+document.getElementById('drop_down_ingri_beef3').addEventListener('click', function(){
+    var beefbox = document.getElementById("drop_beef3")
+    if(beefbox.style.display=="none")
+    {
+        beefbox.style.display = "block"
+    }
+    else{
+        beefbox.style.display = "none"
+    }
+})
+
+document.getElementById('drop_down_ingri_beef4').addEventListener('click', function(){
+    var beefbox = document.getElementById("drop_beef4")
+    if(beefbox.style.display=="none")
+    {
+        beefbox.style.display = "block"
+    }
+    else{
+        beefbox.style.display = "none"
+    }
+})
+
+document.getElementById('drop_down_ingri_turkey').addEventListener('click', function(){
+    var beefbox = document.getElementById("drop_turkey")
+    if(beefbox.style.display=="none")
+    {
+        beefbox.style.display = "block"
+    }
+    else{
+        beefbox.style.display = "none"
+    }
+})
+
+document.getElementById('drop_down_ingri_turkey2').addEventListener('click', function(){
+    var beefbox = document.getElementById("drop_turkey2")
+    if(beefbox.style.display=="none")
+    {
+        beefbox.style.display = "block"
+    }
+    else{
+        beefbox.style.display = "none"
+    }
+})
+
+document.getElementById('drop_down_ingri_turkey3').addEventListener('click', function(){
+    var beefbox = document.getElementById("drop_turkey3")
+    if(beefbox.style.display=="none")
+    {
+        beefbox.style.display = "block"
+    }
+    else{
+        beefbox.style.display = "none"
+    }
+})
+
+document.getElementById('drop_down_ingri_turkey4').addEventListener('click', function(){
+    var beefbox = document.getElementById("drop_turkey4")
+    if(beefbox.style.display=="none")
+    {
+        beefbox.style.display = "block"
+    }
+    else{
+        beefbox.style.display = "none"
+    }
+})
